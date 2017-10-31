@@ -4,7 +4,7 @@ $file = new FileHandler();
 if(isset($_POST['up']))
 {
 	$file->selectFile("test");
-	$file->setDirectory("images/");
+	$file->setDirectory("/");
 	$file->set_allowed_ext(array(
 			"jpg"
 	));
